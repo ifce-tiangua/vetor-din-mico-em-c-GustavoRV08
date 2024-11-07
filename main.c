@@ -12,11 +12,12 @@ int main(){
     }
     for(int i=0; i<tamanho; i++){
         if(i==0){
-            printf("%d", vetor[i]);
+            printf("'[%d", vetor[i]);
         }else{
-            printf(",%d", vetor[i]);
+            printf(", %d", vetor[i]);
         }
     }
+    printf("]'");
     free(vetor);
     return 0;
 }
