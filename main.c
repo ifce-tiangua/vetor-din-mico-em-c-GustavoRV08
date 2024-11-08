@@ -28,5 +28,3 @@ int main(){
     free(vetor);
     return 0;
 }
---global user.email "gustavorv102@gmail.com"
---global user.name "gustavoRV"
